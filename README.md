@@ -29,7 +29,11 @@ This project demonstrates the transformative potential of combining traditional 
 ---
 
 ## 1. Introduction  
-This project leverages SQL to implement a Traffic Management System that dynamically adjusts traffic light durations based on real-time vehicle counts. By using data analytics and SQL queries, the system aims to reduce congestion, enhance safety, and minimize environmental impact in urban areas.
+This project leverages SQL to implement a Traffic Management System that dynamically adjusts traffic light durations based on real-time vehicle counts. By utilizing data analytics and SQL queries, the system aims to mitigate congestion, enhance road safety, and minimize environmental impact in urban areas. Specifically, the system will focus on:
+
+Optimizing traffic flow: By analyzing real-time vehicle data, the system will dynamically adjust traffic light timings to prioritize traffic flow at congested intersections.
+Improving safety: By identifying and addressing potential bottlenecks, the system will contribute to a safer and more predictable traffic environment for all road users.
+Reducing environmental impact: By minimizing idling time and optimizing traffic flow, the system will contribute to a reduction in fuel consumption and vehicle emissions, leading to a more sustainable urban environment.
 
 ---
 
