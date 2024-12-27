@@ -6,9 +6,11 @@
 **December 25, 2024**
 
 ## Abstract  
-Traffic congestion in urban areas is a significant challenge, leading to increased travel times, fuel consumption, carbon emissions, and poor air quality. This project introduces a smart Traffic Management System utilizing SQL to analyze real-time vehicle counts at intersections and dynamically adjust traffic light durations.  
+Traffic congestion in urban areas is a significant challenge, leading to increased travel times, fuel consumption, carbon emissions, and poor air quality. This project introduces a smart Traffic Management System utilizing SQL to analyze real-time vehicle counts at intersections and dynamically adjust traffic light durations.
 
-By leveraging SQL queries and data analytics, the system optimizes traffic light timings, reducing congestion and improving urban mobility. This project demonstrates the transformative potential of data-driven solutions in urban traffic management, paving the way for smarter, more efficient cities.  
+While current traffic signal systems often rely on sonar sensors to detect vehicle presence, this project explores the potential of integrating data from platforms like Google and other apps where device location is shared. By incorporating such data, the system can estimate the actual number of vehicles in real-time more accurately. Although full integration of external data sources is not yet implemented, the system currently uses partial data inputs to optimize traffic light timings, reducing congestion and improving urban mobility.
+
+This project demonstrates the transformative potential of combining traditional sensor-based systems with advanced data analytics and external data sources, paving the way for smarter, more efficient cities.
 
 ---
 
@@ -252,9 +254,9 @@ plt.show()
 ---
 
 ## 8. Conclusion  
-The Traffic Management System demonstrates the potential of data-driven solutions to address urban traffic challenges. By using SQL to dynamically adjust traffic light durations, the system optimizes flow, reduces emissions, and improves commuter experiences.  
+This project represents an initial exploration of a smart Traffic Management System. By utilizing SQL to analyze preliminary traffic data and exploring the potential of vehicle detection through sonar sensors, this project demonstrates the feasibility of using data-driven approaches to improve traffic flow. While the current system is limited in scope and lacks the integration of external data sources like Google Maps and location-based services, this initial work highlights the significant potential for such integration in future iterations.
 
-This project serves as a foundation for further research and innovation in intelligent transportation systems.  
+By incorporating real-time data from various sources, the system can be further enhanced to provide more accurate traffic predictions, optimize traffic signal timings more effectively, and ultimately achieve a more seamless and efficient urban transportation network. This project serves as a foundation for continued research and development, paving the way for the creation of smarter, more sustainable cities. 
 
 ---
 
