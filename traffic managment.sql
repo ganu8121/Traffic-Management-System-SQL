@@ -67,6 +67,7 @@ VALUES
 ('Location A', 'High', '2024-12-25 08:15:00'),
 ('Location B', 'Medium', '2024-12-25 08:15:00'),
 ('Location C', 'Low', '2024-12-25 08:15:00');
+-- Query 1
 SELECT 
     T.Location, 
     SUM(TL.Vehicle_Count) AS Total_Vehicles
@@ -78,12 +79,13 @@ WHERE
     TL.Log_Time BETWEEN '2024-12-25 08:00:00' AND '2024-12-25 09:00:00'
 GROUP BY 
     T.Location;
-
+-- Query 2
 SELECT 
     Location, 
     Status 
 FROM 
     Traffic_Lights;
+-- Query 3
 SELECT 
     Location, 
     Congestion_Level, 
@@ -92,6 +94,7 @@ FROM
     Congestion_Report
 WHERE 
     Report_Time BETWEEN '2024-12-25 08:00:00' AND '2024-12-25 09:00:00';
+-- Query 4
 SELECT 
     T.Location,
     CASE 
@@ -105,7 +108,7 @@ JOIN
     Traffic_Lights T ON TL.Light_ID = T.Light_ID
 WHERE 
     TL.Log_Time BETWEEN '2024-12-25 08:00:00' AND '2024-12-25 09:00:00';
-    
+-- Query to Calculate Average Vehicle Count by Hour  
 SELECT   
     T.Location,   
     HOUR(TL.Log_Time) AS Hour,   
@@ -119,6 +122,7 @@ WHERE
 GROUP BY   
     T.Location,   
     HOUR(TL.Log_Time); 
+-- Query to Identify Peak Traffic Hours
 SELECT   
     T.Location,   
     HOUR(TL.Log_Time) AS Hour,   
